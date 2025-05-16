@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01982B6226DB371A5A196159 /* Pods_TappxSwiftUIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD0E855E9C2DC134C9E5016 /* Pods_TappxSwiftUIExample.framework */; };
+		564192102DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */; };
+		564192142DCE4D4F007B3C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564192132DCE4D4F007B3C8B /* Assets.xcassets */; };
+		564192172DCE4D4F007B3C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */; };
+		E6B4486F2DCE4EC700780594 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4486E2DCE4EC700780594 /* Constants.swift */; };
+		E6B448712DCE4EE100780594 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448702DCE4EE100780594 /* Color-Theme.swift */; };
+		E6B448732DCE4EF900780594 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448722DCE4EF900780594 /* StringExtension.swift */; };
+		E6B448752DCE4F1300780594 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448742DCE4F1300780594 /* UIFontExtension.swift */; };
+		E6B448772DCE4F2F00780594 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6B448762DCE4F2F00780594 /* Localizable.strings */; };
+		E6B448792DD2058D00780594 /* AdType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448782DD2058D00780594 /* AdType.swift */; };
+		E6B4487B2DD2059D00780594 /* AdSubType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4487A2DD2059D00780594 /* AdSubType.swift */; };
+		E6B448812DD2061900780594 /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448802DD2061900780594 /* InterstitialAd.swift */; };
+		E6B448832DD2065E00780594 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448822DD2065E00780594 /* RewardedAd.swift */; };
+		E6B448852DD26C4A00780594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B448842DD26C4A00780594 /* LaunchScreen.storyboard */; };
+		E6B4488A2DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B448892DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf */; };
+		E6B4488B2DD26EAB00780594 /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B448882DD26EAB00780594 /* IBMPlexSans-Medium.ttf */; };
+		E6B4488D2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6B4488C2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf */; };
+		E6B4488F2DD271C200780594 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4488E2DD271C200780594 /* MainView.swift */; };
+		E6B448912DD271DF00780594 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448902DD271DF00780594 /* BannerView.swift */; };
+		E6B448932DD271EA00780594 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448922DD271EA00780594 /* FullScreenView.swift */; };
+		E6B4489C2DD35B9300780594 /* MainMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4489B2DD35B9300780594 /* MainMenuButtonView.swift */; };
+		E6B448A92DD4A09B00780594 /* TappxErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448A82DD4A09B00780594 /* TappxErrorManager.swift */; };
+		F07BB0EC2DD5D4A000FB83E6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BB0EB2DD5D4A000FB83E6 /* BaseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53680C023ADE61D5DC52E62C /* Pods-TappxSwiftUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.debug.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5641920C2DCE4D4E007B3C8B /* TappxSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TappxSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxSwiftUIExampleApp.swift; sourceTree = "<group>"; };
+		564192132DCE4D4F007B3C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BD0E855E9C2DC134C9E5016 /* Pods_TappxSwiftUIExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappxSwiftUIExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9211F911F71919231C8B05D3 /* Pods-TappxSwiftUIExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.release.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.release.xcconfig"; sourceTree = "<group>"; };
+		E6B4486E2DCE4EC700780594 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E6B448702DCE4EE100780594 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		E6B448722DCE4EF900780594 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E6B448742DCE4F1300780594 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		E6B448762DCE4F2F00780594 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E6B448782DD2058D00780594 /* AdType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdType.swift; sourceTree = "<group>"; };
+		E6B4487A2DD2059D00780594 /* AdSubType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSubType.swift; sourceTree = "<group>"; };
+		E6B448802DD2061900780594 /* InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
+		E6B448822DD2065E00780594 /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
+		E6B448842DD26C4A00780594 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B448862DD26D1C00780594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E6B448882DD26EAB00780594 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		E6B448892DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E6B4488C2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReneBieder-FaktumSemiBold.otf"; sourceTree = "<group>"; };
+		E6B4488E2DD271C200780594 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E6B448902DD271DF00780594 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		E6B448922DD271EA00780594 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
+		E6B4489B2DD35B9300780594 /* MainMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuButtonView.swift; sourceTree = "<group>"; };
+		E6B448A72DD49C6C00780594 /* TappxSwiftUIExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TappxSwiftUIExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6B448A82DD4A09B00780594 /* TappxErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxErrorManager.swift; sourceTree = "<group>"; };
+		F07BB0EB2DD5D4A000FB83E6 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564192092DCE4D4E007B3C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01982B6226DB371A5A196159 /* Pods_TappxSwiftUIExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564192032DCE4D4E007B3C8B = {
+			isa = PBXGroup;
+			children = (
+				5641920E2DCE4D4E007B3C8B /* TappxSwiftUIExample */,
+				5641920D2DCE4D4E007B3C8B /* Products */,
+				ED25D1BBB044D3FEBA3C584C /* Pods */,
+				E3EC2627EB34986F5B919A63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5641920D2DCE4D4E007B3C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5641920C2DCE4D4E007B3C8B /* TappxSwiftUIExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5641920E2DCE4D4E007B3C8B /* TappxSwiftUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				E6B448862DD26D1C00780594 /* Info.plist */,
+				E6B448A72DD49C6C00780594 /* TappxSwiftUIExample-Bridging-Header.h */,
+				5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */,
+				E6B4486D2DCE4EA600780594 /* Conf */,
+				E6B4486B2DCE4E5800780594 /* Views */,
+				E6B4486C2DCE4E8100780594 /* Ads */,
+				E6B448942DD33F8600780594 /* ViewModifiers */,
+				E6B448872DD26E9600780594 /* Fonts */,
+				564192132DCE4D4F007B3C8B /* Assets.xcassets */,
+				564192152DCE4D4F007B3C8B /* Preview Content */,
+			);
+			path = TappxSwiftUIExample;
+			sourceTree = "<group>";
+		};
+		564192152DCE4D4F007B3C8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3EC2627EB34986F5B919A63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BD0E855E9C2DC134C9E5016 /* Pods_TappxSwiftUIExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B4486B2DCE4E5800780594 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6B448842DD26C4A00780594 /* LaunchScreen.storyboard */,
+				E6B4488E2DD271C200780594 /* MainView.swift */,
+				E6B448902DD271DF00780594 /* BannerView.swift */,
+				E6B448922DD271EA00780594 /* FullScreenView.swift */,
+				F07BB0EB2DD5D4A000FB83E6 /* BaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6B4486C2DCE4E8100780594 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				E6B448782DD2058D00780594 /* AdType.swift */,
+				E6B4487A2DD2059D00780594 /* AdSubType.swift */,
+				E6B448A82DD4A09B00780594 /* TappxErrorManager.swift */,
+				E6B448802DD2061900780594 /* InterstitialAd.swift */,
+				E6B448822DD2065E00780594 /* RewardedAd.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		E6B4486D2DCE4EA600780594 /* Conf */ = {
+			isa = PBXGroup;
+			children = (
+				E6B4486E2DCE4EC700780594 /* Constants.swift */,
+				E6B448702DCE4EE100780594 /* Color-Theme.swift */,
+				E6B448722DCE4EF900780594 /* StringExtension.swift */,
+				E6B448742DCE4F1300780594 /* UIFontExtension.swift */,
+				E6B448762DCE4F2F00780594 /* Localizable.strings */,
+			);
+			path = Conf;
+			sourceTree = "<group>";
+		};
+		E6B448872DD26E9600780594 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6B4488C2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf */,
+				E6B448882DD26EAB00780594 /* IBMPlexSans-Medium.ttf */,
+				E6B448892DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E6B448942DD33F8600780594 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E6B4489B2DD35B9300780594 /* MainMenuButtonView.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		ED25D1BBB044D3FEBA3C584C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53680C023ADE61D5DC52E62C /* Pods-TappxSwiftUIExample.debug.xcconfig */,
+				9211F911F71919231C8B05D3 /* Pods-TappxSwiftUIExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5641920B2DCE4D4E007B3C8B /* TappxSwiftUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5641921A2DCE4D4F007B3C8B /* Build configuration list for PBXNativeTarget "TappxSwiftUIExample" */;
+			buildPhases = (
+				5CE94CCFAC4F51CF7C9A044D /* [CP] Check Pods Manifest.lock */,
+				564192082DCE4D4E007B3C8B /* Sources */,
+				564192092DCE4D4E007B3C8B /* Frameworks */,
+				5641920A2DCE4D4E007B3C8B /* Resources */,
+				785030B9B78A2205160BF2DD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TappxSwiftUIExample;
+			productName = TappxSwiftUIExample;
+			productReference = 5641920C2DCE4D4E007B3C8B /* TappxSwiftUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564192042DCE4D4E007B3C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5641920B2DCE4D4E007B3C8B = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = 564192072DCE4D4E007B3C8B /* Build configuration list for PBXProject "TappxSwiftUIExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564192032DCE4D4E007B3C8B;
+			productRefGroup = 5641920D2DCE4D4E007B3C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5641920B2DCE4D4E007B3C8B /* TappxSwiftUIExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5641920A2DCE4D4E007B3C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564192172DCE4D4F007B3C8B /* Preview Assets.xcassets in Resources */,
+				E6B448852DD26C4A00780594 /* LaunchScreen.storyboard in Resources */,
+				E6B448772DCE4F2F00780594 /* Localizable.strings in Resources */,
+				564192142DCE4D4F007B3C8B /* Assets.xcassets in Resources */,
+				E6B4488A2DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf in Resources */,
+				E6B4488D2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf in Resources */,
+				E6B4488B2DD26EAB00780594 /* IBMPlexSans-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CE94CCFAC4F51CF7C9A044D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappxSwiftUIExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785030B9B78A2205160BF2DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564192082DCE4D4E007B3C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B4488F2DD271C200780594 /* MainView.swift in Sources */,
+				564192102DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift in Sources */,
+				E6B448832DD2065E00780594 /* RewardedAd.swift in Sources */,
+				E6B448732DCE4EF900780594 /* StringExtension.swift in Sources */,
+				E6B4489C2DD35B9300780594 /* MainMenuButtonView.swift in Sources */,
+				E6B4487B2DD2059D00780594 /* AdSubType.swift in Sources */,
+				E6B4486F2DCE4EC700780594 /* Constants.swift in Sources */,
+				E6B448812DD2061900780594 /* InterstitialAd.swift in Sources */,
+				E6B448752DCE4F1300780594 /* UIFontExtension.swift in Sources */,
+				E6B448712DCE4EE100780594 /* Color-Theme.swift in Sources */,
+				E6B448932DD271EA00780594 /* FullScreenView.swift in Sources */,
+				E6B448912DD271DF00780594 /* BannerView.swift in Sources */,
+				F07BB0EC2DD5D4A000FB83E6 /* BaseView.swift in Sources */,
+				E6B448A92DD4A09B00780594 /* TappxErrorManager.swift in Sources */,
+				E6B448792DD2058D00780594 /* AdType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		564192182DCE4D4F007B3C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "TappxSwiftUIExample/TappxSwiftUIExample-Bridging-Header.h";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "TappxSwiftUIExample/TappxSwiftUIExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+			};
+			name = Debug;
+		};
+		564192192DCE4D4F007B3C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "TappxSwiftUIExample/TappxSwiftUIExample-Bridging-Header.h";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "TappxSwiftUIExample/TappxSwiftUIExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5641921B2DCE4D4F007B3C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53680C023ADE61D5DC52E62C /* Pods-TappxSwiftUIExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TappxSwiftUIExample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TappxSwiftUIExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tappx SDK App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappx.TappxSwiftUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TappxSwiftUIExample/TappxSwiftUIExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5641921C2DCE4D4F007B3C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9211F911F71919231C8B05D3 /* Pods-TappxSwiftUIExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TappxSwiftUIExample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TappxSwiftUIExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tappx SDK App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappx.TappxSwiftUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TappxSwiftUIExample/TappxSwiftUIExample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564192072DCE4D4E007B3C8B /* Build configuration list for PBXProject "TappxSwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564192182DCE4D4F007B3C8B /* Debug */,
+				564192192DCE4D4F007B3C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5641921A2DCE4D4F007B3C8B /* Build configuration list for PBXNativeTarget "TappxSwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5641921B2DCE4D4F007B3C8B /* Debug */,
+				5641921C2DCE4D4F007B3C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564192042DCE4D4E007B3C8B /* Project object */;
+}
