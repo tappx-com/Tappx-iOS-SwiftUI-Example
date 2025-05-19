@@ -17,7 +17,7 @@ extension Font {
     }
     
     static func headerFont() -> Font {
-        return Font.custom("ReneBieder-FaktumSemiBold", size: 26)
+        return Font.custom("Faktum-SemiBold", size: 26)
     }
     
     static func secondFont() -> Font {

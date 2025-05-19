@@ -23,12 +23,12 @@
 		E6B448852DD26C4A00780594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B448842DD26C4A00780594 /* LaunchScreen.storyboard */; };
 		E6B4488A2DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B448892DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf */; };
 		E6B4488B2DD26EAB00780594 /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6B448882DD26EAB00780594 /* IBMPlexSans-Medium.ttf */; };
-		E6B4488D2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E6B4488C2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf */; };
 		E6B4488F2DD271C200780594 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4488E2DD271C200780594 /* MainView.swift */; };
 		E6B448912DD271DF00780594 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448902DD271DF00780594 /* BannerView.swift */; };
 		E6B448932DD271EA00780594 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448922DD271EA00780594 /* FullScreenView.swift */; };
 		E6B4489C2DD35B9300780594 /* MainMenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4489B2DD35B9300780594 /* MainMenuButtonView.swift */; };
 		E6B448A92DD4A09B00780594 /* TappxErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B448A82DD4A09B00780594 /* TappxErrorManager.swift */; };
+		E6DCCDC92DDB6EC4001F5343 /* Faktum-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6DCCDC82DDB6EC4001F5343 /* Faktum-SemiBold.ttf */; };
 		F07BB0EC2DD5D4A000FB83E6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BB0EB2DD5D4A000FB83E6 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,13 +53,13 @@
 		E6B448862DD26D1C00780594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E6B448882DD26EAB00780594 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
 		E6B448892DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		E6B4488C2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReneBieder-FaktumSemiBold.otf"; sourceTree = "<group>"; };
 		E6B4488E2DD271C200780594 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E6B448902DD271DF00780594 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		E6B448922DD271EA00780594 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
 		E6B4489B2DD35B9300780594 /* MainMenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuButtonView.swift; sourceTree = "<group>"; };
 		E6B448A72DD49C6C00780594 /* TappxSwiftUIExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TappxSwiftUIExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		E6B448A82DD4A09B00780594 /* TappxErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxErrorManager.swift; sourceTree = "<group>"; };
+		E6DCCDC82DDB6EC4001F5343 /* Faktum-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Faktum-SemiBold.ttf"; sourceTree = "<group>"; };
 		F07BB0EB2DD5D4A000FB83E6 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +165,7 @@
 		E6B448872DD26E9600780594 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				E6B4488C2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf */,
+				E6DCCDC82DDB6EC4001F5343 /* Faktum-SemiBold.ttf */,
 				E6B448882DD26EAB00780594 /* IBMPlexSans-Medium.ttf */,
 				E6B448892DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf */,
 			);
@@ -253,9 +253,9 @@
 				564192172DCE4D4F007B3C8B /* Preview Assets.xcassets in Resources */,
 				E6B448852DD26C4A00780594 /* LaunchScreen.storyboard in Resources */,
 				E6B448772DCE4F2F00780594 /* Localizable.strings in Resources */,
+				E6DCCDC92DDB6EC4001F5343 /* Faktum-SemiBold.ttf in Resources */,
 				564192142DCE4D4F007B3C8B /* Assets.xcassets in Resources */,
 				E6B4488A2DD26EAB00780594 /* IBMPlexSans-SemiBold.ttf in Resources */,
-				E6B4488D2DD26EB300780594 /* ReneBieder-FaktumSemiBold.otf in Resources */,
 				E6B4488B2DD26EAB00780594 /* IBMPlexSans-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
