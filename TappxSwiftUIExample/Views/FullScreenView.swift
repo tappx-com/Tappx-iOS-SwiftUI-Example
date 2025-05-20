@@ -128,9 +128,7 @@ struct FullScreenView: View {
     
     private func autoShowAction() {
         if adType == .interstitial {
-            if autoShowEnabled {
-                interstitialAd.autoShow(enable: autoShowEnabled)
-            }
+            interstitialAd.autoShow(enable: autoShowEnabled)
         }
     }
     
