@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35C44C20D9744B191A597063 /* Pods_TappxSwiftUIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55B9476DD7E8CB663D6EE5D /* Pods_TappxSwiftUIExample.framework */; };
+		0D7632BB0374C0CAF3242BEC /* Pods_TappxSwiftUIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA4F0D12EF241BF04B7B39E /* Pods_TappxSwiftUIExample.framework */; };
 		564192102DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */; };
 		564192142DCE4D4F007B3C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564192132DCE4D4F007B3C8B /* Assets.xcassets */; };
 		564192172DCE4D4F007B3C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */; };
@@ -33,13 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03CE11C878F1D1EF72EFA5DF /* Pods-TappxSwiftUIExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.release.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.release.xcconfig"; sourceTree = "<group>"; };
 		5641920C2DCE4D4E007B3C8B /* TappxSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TappxSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxSwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		564192132DCE4D4F007B3C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A55B9476DD7E8CB663D6EE5D /* Pods_TappxSwiftUIExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappxSwiftUIExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E02D636E643B2B240471C8A0 /* Pods-TappxSwiftUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.debug.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.debug.xcconfig"; sourceTree = "<group>"; };
+		674B9DD571ABB34186019F70 /* Pods-TappxSwiftUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.debug.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6DA4F0D12EF241BF04B7B39E /* Pods_TappxSwiftUIExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappxSwiftUIExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE757716077867AAD3F46EE /* Pods-TappxSwiftUIExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.release.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.release.xcconfig"; sourceTree = "<group>"; };
 		E6B4486E2DCE4EC700780594 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E6B448702DCE4EE100780594 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		E6B448722DCE4EF900780594 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -68,20 +68,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C44C20D9744B191A597063 /* Pods_TappxSwiftUIExample.framework in Frameworks */,
+				0D7632BB0374C0CAF3242BEC /* Pods_TappxSwiftUIExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D46C0D0859D92CF24C4E89E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4F0D12EF241BF04B7B39E /* Pods_TappxSwiftUIExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		564192032DCE4D4E007B3C8B = {
 			isa = PBXGroup;
 			children = (
 				5641920E2DCE4D4E007B3C8B /* TappxSwiftUIExample */,
 				5641920D2DCE4D4E007B3C8B /* Products */,
 				ED25D1BBB044D3FEBA3C584C /* Pods */,
-				7615493649EC0A07165616C9 /* Frameworks */,
+				0D46C0D0859D92CF24C4E89E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,14 +124,6 @@
 				564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7615493649EC0A07165616C9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A55B9476DD7E8CB663D6EE5D /* Pods_TappxSwiftUIExample.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E6B4486B2DCE4E5800780594 /* Views */ = {
@@ -183,8 +183,8 @@
 		ED25D1BBB044D3FEBA3C584C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E02D636E643B2B240471C8A0 /* Pods-TappxSwiftUIExample.debug.xcconfig */,
-				03CE11C878F1D1EF72EFA5DF /* Pods-TappxSwiftUIExample.release.xcconfig */,
+				674B9DD571ABB34186019F70 /* Pods-TappxSwiftUIExample.debug.xcconfig */,
+				ACE757716077867AAD3F46EE /* Pods-TappxSwiftUIExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -196,11 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5641921A2DCE4D4F007B3C8B /* Build configuration list for PBXNativeTarget "TappxSwiftUIExample" */;
 			buildPhases = (
-				2F72797EBF648A313543244C /* [CP] Check Pods Manifest.lock */,
+				C9FB8560A3A90EC5788551BF /* [CP] Check Pods Manifest.lock */,
 				564192082DCE4D4E007B3C8B /* Sources */,
 				564192092DCE4D4E007B3C8B /* Frameworks */,
 				5641920A2DCE4D4E007B3C8B /* Resources */,
-				20BF11A99FE00F2A776C3AD8 /* [CP] Embed Pods Frameworks */,
+				9156EF8913717DA868D2BE88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,7 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20BF11A99FE00F2A776C3AD8 /* [CP] Embed Pods Frameworks */ = {
+		9156EF8913717DA868D2BE88 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,20 +271,16 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2F72797EBF648A313543244C /* [CP] Check Pods Manifest.lock */ = {
+		C9FB8560A3A90EC5788551BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,7 +452,7 @@
 		};
 		5641921B2DCE4D4F007B3C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E02D636E643B2B240471C8A0 /* Pods-TappxSwiftUIExample.debug.xcconfig */;
+			baseConfigurationReference = 674B9DD571ABB34186019F70 /* Pods-TappxSwiftUIExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,7 +495,7 @@
 		};
 		5641921C2DCE4D4F007B3C8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03CE11C878F1D1EF72EFA5DF /* Pods-TappxSwiftUIExample.release.xcconfig */;
+			baseConfigurationReference = ACE757716077867AAD3F46EE /* Pods-TappxSwiftUIExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
