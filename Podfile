@@ -7,7 +7,7 @@ target 'TappxSwiftUIExample' do
 
   # Pods for TappxSwiftUIExample
 
-	pod 'TappxSDK', '4.2.8'
+	pod 'TappxSDK', '4.2.10'
 
 
 end
