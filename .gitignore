@@ -1,0 +1,177 @@
+Pods/Pods.xcodeproj/xcuserdata/saradiazperez.xcuserdatad/xcschemes/Pods-TappxSwiftUIExample.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/saradiazperez.xcuserdatad/xcschemes/TappxSDK.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/saradiazperez.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/TappxSDK/OMSDK_Tappx.xcframework/Info.plist
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Info.plist
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/OMSDK_Tappx
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/PrivacyInfo.xcprivacy
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDAdEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDAdSession.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDAdSessionConfiguration.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDAdSessionContext.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDFriendlyObstructionType.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDImports.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDJavaScriptSessionService.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDMediaEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDPartner.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDScriptInjector.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDUniversalAdID.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDVASTProperties.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMIDVerificationScriptResource.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Headers/OMSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64/OMSDK_Tappx.framework/Modules/module.modulemap
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Info.plist
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/OMSDK_Tappx
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/PrivacyInfo.xcprivacy
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/_CodeSignature/CodeResources
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdSession.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdSessionConfiguration.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdSessionContext.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDFriendlyObstructionType.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDImports.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDJavaScriptSessionService.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDMediaEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDPartner.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDScriptInjector.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDUniversalAdID.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDVASTProperties.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDVerificationScriptResource.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/ios-arm64_x86_64-simulator/OMSDK_Tappx.framework/Modules/module.modulemap
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Info.plist
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/OMSDK_Tappx
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/PrivacyInfo.xcprivacy
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDAdEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDAdSession.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDAdSessionConfiguration.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDAdSessionContext.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDFriendlyObstructionType.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDImports.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDJavaScriptSessionService.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDMediaEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDPartner.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDScriptInjector.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDUniversalAdID.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDVASTProperties.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMIDVerificationScriptResource.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Headers/OMSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64/OMSDK_Tappx.framework/Modules/module.modulemap
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Info.plist
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/OMSDK_Tappx
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/PrivacyInfo.xcprivacy
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/_CodeSignature/CodeResources
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdSession.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdSessionConfiguration.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDAdSessionContext.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDFriendlyObstructionType.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDImports.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDJavaScriptSessionService.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDMediaEvents.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDPartner.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDScriptInjector.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDUniversalAdID.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDVASTProperties.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMIDVerificationScriptResource.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Headers/OMSDK.h
+Pods/TappxSDK/OMSDK_Tappx.xcframework/tvos-arm64_x86_64-simulator/OMSDK_Tappx.framework/Modules/module.modulemap
+Pods/TappxSDK/TappxFramework.xcframework/Info.plist
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Assets.car
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Info.plist
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/mraid.js
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/mraid.mini.js
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/omsdk-v1.js
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/PrivacyInfo.xcprivacy
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/TappxFramework
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/ITPXAdapter.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/ITPXAdapterDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/ITPXGoogleAdManagerAdapterBanner.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/ITPXGoogleAdManagerAdapterInterstitial.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/ITPXGoogleAdManagerAdapterRewarded.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxAds.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxBannerView.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxBannerViewController.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxBannerViewControllerDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxBannerViewDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxErrorAd.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxFramework-Swift.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxFramework.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxInterstitialAd.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxInterstitialAdDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxInterstitialViewController.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxInterstitialViewControllerDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxRewardedAd.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxRewardedAdDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxRewardedViewController.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxRewardedViewControllerDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxSettings.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Headers/TappxVASTURL.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Modules/module.modulemap
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios.abi.json
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios.private.swiftinterface
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios.swiftdoc
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios.swiftinterface
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Assets.car
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Info.plist
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/mraid.js
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/mraid.mini.js
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/omsdk-v1.js
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/PrivacyInfo.xcprivacy
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/TappxFramework
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/_CodeSignature/CodeResources
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/ITPXAdapter.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/ITPXAdapterDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/ITPXGoogleAdManagerAdapterBanner.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/ITPXGoogleAdManagerAdapterInterstitial.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/ITPXGoogleAdManagerAdapterRewarded.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxAds.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxBannerView.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxBannerViewController.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxBannerViewControllerDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxBannerViewDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxErrorAd.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxFramework-Swift.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxFramework.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxInterstitialAd.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxInterstitialAdDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxInterstitialViewController.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxInterstitialViewControllerDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxRewardedAd.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxRewardedAdDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxRewardedViewController.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxRewardedViewControllerDelegate.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxSettings.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Headers/TappxVASTURL.h
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/module.modulemap
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios-simulator.abi.json
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+Pods/TappxSDK/TappxFramework.xcframework/ios-arm64_x86_64-simulator/TappxFramework.framework/Modules/TappxFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-acknowledgements.markdown
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-acknowledgements.plist
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-dummy.m
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks.sh
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-Info.plist
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-umbrella.h
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.debug.xcconfig
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.modulemap
+Pods/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.release.xcconfig
+Pods/Target Support Files/TappxSDK/TappxSDK-xcframeworks-input-files.xcfilelist
+Pods/Target Support Files/TappxSDK/TappxSDK-xcframeworks-output-files.xcfilelist
+Pods/Target Support Files/TappxSDK/TappxSDK-xcframeworks.sh
+Pods/Target Support Files/TappxSDK/TappxSDK.debug.xcconfig
+Pods/Target Support Files/TappxSDK/TappxSDK.release.xcconfig
+TappxSwiftUIExample.xcodeproj/xcuserdata/saradiazperez.xcuserdatad/xcschemes/xcschememanagement.plist
