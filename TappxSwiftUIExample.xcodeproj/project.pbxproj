@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D7632BB0374C0CAF3242BEC /* Pods_TappxSwiftUIExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA4F0D12EF241BF04B7B39E /* Pods_TappxSwiftUIExample.framework */; };
+		4E18C16230921A430037B1D9 /* TappxSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4E18C16130921A430037B1D9 /* TappxSDK */; };
 		564192102DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */; };
 		564192142DCE4D4F007B3C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564192132DCE4D4F007B3C8B /* Assets.xcassets */; };
 		564192172DCE4D4F007B3C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */; };
@@ -37,9 +37,6 @@
 		5641920F2DCE4D4E007B3C8B /* TappxSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappxSwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		564192132DCE4D4F007B3C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564192162DCE4D4F007B3C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		674B9DD571ABB34186019F70 /* Pods-TappxSwiftUIExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.debug.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.debug.xcconfig"; sourceTree = "<group>"; };
-		6DA4F0D12EF241BF04B7B39E /* Pods_TappxSwiftUIExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappxSwiftUIExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACE757716077867AAD3F46EE /* Pods-TappxSwiftUIExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappxSwiftUIExample.release.xcconfig"; path = "Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample.release.xcconfig"; sourceTree = "<group>"; };
 		E6B4486E2DCE4EC700780594 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E6B448702DCE4EE100780594 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		E6B448722DCE4EF900780594 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -68,28 +65,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7632BB0374C0CAF3242BEC /* Pods_TappxSwiftUIExample.framework in Frameworks */,
+				4E18C16230921A430037B1D9 /* TappxSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D46C0D0859D92CF24C4E89E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6DA4F0D12EF241BF04B7B39E /* Pods_TappxSwiftUIExample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		564192032DCE4D4E007B3C8B = {
 			isa = PBXGroup;
 			children = (
 				5641920E2DCE4D4E007B3C8B /* TappxSwiftUIExample */,
 				5641920D2DCE4D4E007B3C8B /* Products */,
-				ED25D1BBB044D3FEBA3C584C /* Pods */,
-				0D46C0D0859D92CF24C4E89E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,15 +167,6 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
-		ED25D1BBB044D3FEBA3C584C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				674B9DD571ABB34186019F70 /* Pods-TappxSwiftUIExample.debug.xcconfig */,
-				ACE757716077867AAD3F46EE /* Pods-TappxSwiftUIExample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,11 +174,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5641921A2DCE4D4F007B3C8B /* Build configuration list for PBXNativeTarget "TappxSwiftUIExample" */;
 			buildPhases = (
-				C9FB8560A3A90EC5788551BF /* [CP] Check Pods Manifest.lock */,
 				564192082DCE4D4E007B3C8B /* Sources */,
 				564192092DCE4D4E007B3C8B /* Frameworks */,
 				5641920A2DCE4D4E007B3C8B /* Resources */,
-				9156EF8913717DA868D2BE88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +212,9 @@
 				Base,
 			);
 			mainGroup = 564192032DCE4D4E007B3C8B;
+			packageReferences = (
+				4E18C16030921A430037B1D9 /* XCRemoteSwiftPackageReference "TappxSDK-swift-package-manager" */,
+			);
 			productRefGroup = 5641920D2DCE4D4E007B3C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,48 +240,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9156EF8913717DA868D2BE88 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TappxSwiftUIExample/Pods-TappxSwiftUIExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9FB8560A3A90EC5788551BF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TappxSwiftUIExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		564192082DCE4D4E007B3C8B /* Sources */ = {
@@ -452,7 +389,6 @@
 		};
 		5641921B2DCE4D4F007B3C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 674B9DD571ABB34186019F70 /* Pods-TappxSwiftUIExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -495,7 +431,6 @@
 		};
 		5641921C2DCE4D4F007B3C8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACE757716077867AAD3F46EE /* Pods-TappxSwiftUIExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E18C16030921A430037B1D9 /* XCRemoteSwiftPackageReference "TappxSDK-swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tappx-com/TappxSDK-swift-package-manager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.16;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E18C16130921A430037B1D9 /* TappxSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E18C16030921A430037B1D9 /* XCRemoteSwiftPackageReference "TappxSDK-swift-package-manager" */;
+			productName = TappxSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 564192042DCE4D4E007B3C8B /* Project object */;
 }
